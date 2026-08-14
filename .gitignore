@@ -1,5 +1,10 @@
 # Ignore node modules directories
 node_modules/
 
+# Ignore local environment files containing secrets
+.env
+.env.*
+!.env.example
+
 # Keep existing root ignored (if intentional)
 /node_modules/
