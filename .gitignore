@@ -1,0 +1,5 @@
+# Ignore node modules directories
+node_modules/
+
+# Keep existing root ignored (if intentional)
+/
