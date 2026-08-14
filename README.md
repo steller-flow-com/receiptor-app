@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.jpg" alt="Receiptor logo" width="200" height="200">
+</p>
+
 # Receiptor App
 
 The off-chain half of Receiptor: an SDK, merchant dashboard, and Stellar event
