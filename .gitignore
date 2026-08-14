@@ -2,4 +2,4 @@
 node_modules/
 
 # Keep existing root ignored (if intentional)
-/
+/node_modules/
