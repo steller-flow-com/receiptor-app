@@ -1,0 +1,25 @@
+{
+  "region": "us-west-1",
+  "apps": {
+    "indexer": {
+      "name": "indexer",
+      "root": "indexer",
+      "framework": "bun",
+      "entry": "dist/index.js",
+      "httpPort": 3000,
+      "build": {
+        "command": "pnpm run build",
+        "outputDirectory": "."
+      }
+    },
+    "web": {
+      "name": "web",
+      "root": "apps/web",
+      "framework": "nextjs",
+      "httpPort": 3000,
+      "build": {
+        "command": "pnpm run build"
+      }
+    }
+  }
+}
